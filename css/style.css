@@ -237,7 +237,7 @@ order: -1;
 .video {
   padding-bottom: 100px;
   background-color: var(--color-light);
-  margin-top: 57px
+  margin-top:calc(var(--gap-lg) * -1);
 
 }
 .video__iframe{
